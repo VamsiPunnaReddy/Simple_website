@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1b1b1b;
+}
+
+.logo{
+    color: #fff;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.nav-items{
+    display: flex;
+    gap: 1rem;
+}
+
+.items{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.35rem 0.85rem;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.items:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.in-center{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/08/08/52199/dark-mode-13.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.big-text{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.big-text-2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.btns{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn{
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+}
+
+.btn-1{
+    background-color: #1b1b1b;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+
+.btn-1:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.btn-2{
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
